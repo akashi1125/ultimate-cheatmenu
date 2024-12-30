@@ -1,0 +1,209 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+    <s:String x:Key="LangCode">RU</s:String>
+    <s:String x:Key="Locale">ru-RU</s:String>
+    <s:String x:Key="LangName">Russian</s:String>
+
+    <s:String x:Key="Lang.Window.Version">Версия:</s:String>
+    <s:String x:Key="Lang.Window.Copyright">Создано пользователем FluffyFish</s:String>
+    <s:String x:Key="Lang.Logout">Выход</s:String>
+    <s:String x:Key="Lang.Loading">Загрузка...</s:String>
+    <s:String x:Key="Lang.Login">Вход</s:String>
+    <s:String x:Key="Lang.UserGroup.Administrator">Администратор</s:String>
+    <s:String x:Key="Lang.UserGroup.Press">Репортер</s:String>
+    <s:String x:Key="Lang.UserGroup.Moderator">Модератор</s:String>
+    <s:String x:Key="Lang.UserGroup.User">Пользователь</s:String>
+    
+    <s:String x:Key="Lang.Windows.Login.Title">Вход</s:String>
+    <s:String x:Key="Lang.Windows.Login.Text">Введите свой логин и пароль www.modapi.de для входа в систему.</s:String>
+    <s:String x:Key="Lang.Windows.Login.Buttons.Login">Вход</s:String>
+    <s:String x:Key="Lang.Windows.Login.Buttons.Cancel">Отмена</s:String>
+    <s:String x:Key="Lang.Windows.Login.Labels.Username">Имя пользователя:</s:String>
+    <s:String x:Key="Lang.Windows.Login.Labels.Password">Пароль:</s:String>
+    <s:String x:Key="Lang.Windows.Login.Errors.WrongLogin">Имя пользователя и/или пароль неверный.</s:String>
+    
+    <s:String x:Key="Lang.Windows.OperationPending.Title">Действие обрабатывается...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Buttons.Continue">Продолжить</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Buttons.Cancel">Отмена</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.BackupGameFiles.CreatingBackup">Файлы игры сохраняются...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreatingModLibrary.RemovingOldFiles">Старые файлы удаляются...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreatingModLibrary.CreatingModToolkit">Создание файлов, модификация...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreatingModLibrary.ModifyingAssemblies">Изменение библиотеки игры...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreatingModLibrary.CopyingAssemblies">Копирование библиотеки игры...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreatingModLibrary.Finish">Создание файлов, модификация завершена успешно.</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreatingModLibrary.Error.BaseModLibNotFound">Ошибка: Не можем найти BaseModLib.</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreatingModLibrary.Error.ModifyAssemblyFileNotFound">Ошибка: Не удается найти библиотеку игры.</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreatingModLibrary.Error.CopyAssemblyFileNotFound">Ошибка: Не удается найти библиотеку игры.</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreatingModLibrary.Error.ModifyAssemblyException">Ошибка: При изменении вашей библиотеки игры произошла неизвестная ошибка.</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreateMod.Finish">Модификация была создана.</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreateMod.SavingMod">Создание файла модификации...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreateMod.FetchingTypes">Ввоз типов...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreateMod.ConvertingClasses">Типы были преобразованы...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreateMod.Preparing">Подготовка к созданию модификации...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreateMod.Error.Save">Ошибка: Мод не может быть сохранен.</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreateMod.Error.UnexpectedError">Ошибка: Произошла неизвестная ошибка.</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreateMod.Error.FileNotFound">Ошибка: Не удается найти файл. Возможно, что этот проект не компилируется.</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.CreateMod.Error.CorruptedAssembly">Ошибка: Одна из команд, кажется, сломана.</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.ApplyMods.Preparing">Готовятся условия для мода...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.ApplyMods.FetchingInjections">Ввоз файлов...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.ApplyMods.Injecting">Манипуляция с файлами игры...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.ApplyMods.Resolving">Код MSIL решается...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.ApplyMods.Saving">Сохранение файлов...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.ApplyMods.Error.Unexpected">Ошибка: Произошла неизвестная ошибка во время включения модификации.</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.RestoreGameFiles.Restore">Файлы были восстановлены...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.RestoreGameFiles.Error.Cancelled">Ошибка: Восстановление отменено пользователем!</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.RestoreGameFiles.Error.NoConnection">Ошибка: Steam не удалось подключиться к интернету!</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.RestoreGameFiles.Error.SteamClosed">Ошибка: Steam-закрыт!</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.Update.Download">Загрузка обновлений...</s:String>
+    <s:String x:Key="Lang.Windows.OperationPending.Tasks.Update.Extracting">Распаковка обновления...</s:String>
+
+    <s:String x:Key="Lang.Windows.CreateModProject.Title">Создать проект модификации</s:String>
+    <s:String x:Key="Lang.Windows.CreateModProject.Text">Введите новый идентификатор проекта. Идентификатор должен быть уникальным и содержать только буквенно-цифровые символы и «_».</s:String>
+    <s:String x:Key="Lang.Windows.CreateModProject.Labels.ID">ID:</s:String>
+    <s:String x:Key="Lang.Windows.CreateModProject.Errors.ID">Уже есть проект с этим ID.</s:String>
+    <s:String x:Key="Lang.Windows.CreateModProject.Buttons.Cancel">Отмена</s:String>
+    <s:String x:Key="Lang.Windows.CreateModProject.Buttons.Add">Добавить</s:String>
+
+    <s:String x:Key="Lang.Windows.RemoveModProject.Title">Удалить проект</s:String>
+    <s:String x:Key="Lang.Windows.RemoveModProject.TextPre">Вы уверены, что хотите удалить свой проект?</s:String>
+    <s:String x:Key="Lang.Windows.RemoveModProject.TextPost">Этот процесс является необратимым. Все файлы проекта будут удалены.</s:String>
+    <s:String x:Key="Lang.Windows.RemoveModProject.Buttons.Cancel">Отмена</s:String>
+    <s:String x:Key="Lang.Windows.RemoveModProject.Buttons.Remove">Удалить</s:String>
+
+    <s:String x:Key="Lang.Windows.SpecifyGamePath.Title">Предоставить путь к игре</s:String>
+    <s:String x:Key="Lang.Windows.SpecifyGamePath.Text">Не удалось найти файлы игры автоматически. Введите путь к игре.</s:String>
+    <s:String x:Key="Lang.Windows.SpecifyGamePath.Buttons.Browse">Выберите</s:String>
+    <s:String x:Key="Lang.Windows.SpecifyGamePath.Buttons.Continue">Продолжить</s:String>
+
+    <s:String x:Key="Lang.Windows.SpecifySteamPath.Title">Предоставить путь к Steam</s:String>
+    <s:String x:Key="Lang.Windows.SpecifySteamPath.Text">Steam не найден автоматически. Пожалуйста, введите путь к Steam.</s:String>
+    <s:String x:Key="Lang.Windows.SpecifySteamPath.Buttons.Browse">Выберите</s:String>
+    <s:String x:Key="Lang.Windows.SpecifySteamPath.Buttons.Continue">Продолжить</s:String>
+
+    <s:String x:Key="Lang.Windows.RestoreGameFiles.Title">Не удается определить версию игры</s:String>
+    <s:String x:Key="Lang.Windows.RestoreGameFiles.NoVersionUpdate">Вы не можете проверить версию игры. Чтобы обнаружить новую версию игры, вы должны активировать обновление таблицы версий. Также возможно, что файлы игры повреждены или изменены вне ModAPI.</s:String>
+    <s:String x:Key="Lang.Windows.RestoreGameFiles.VersionNotFound">Вы не можете проверить версию игры. Кажется, что файлы игры были изменены вне ModAPI.</s:String>
+    <s:String x:Key="Lang.Windows.RestoreGameFiles.NoSteamText">Поскольку соединение Steam отключено, ModAPI не может восстановить файлы игры для вас. Восстановите исходное состояние игры, а затем подключите MODAPI к папке. Вы также можете активировать ModAPI-соединение с Steam, после чего файлы игр будут восстановлены.</s:String>
+    <s:String x:Key="Lang.Windows.RestoreGameFiles.SteamText">Может ли ModAPI восстанавливать файлы через Steam?</s:String>
+    <s:String x:Key="Lang.Windows.RestoreGameFiles.Buttons.ActivateVersionUpdate">Включить обновления таблицы версий</s:String>
+    <s:String x:Key="Lang.Windows.RestoreGameFiles.Buttons.ActivateSteam">Включить соединение Steam</s:String>
+    <s:String x:Key="Lang.Windows.RestoreGameFiles.Buttons.Restore">Восстановить файлы</s:String>
+    <s:String x:Key="Lang.Windows.RestoreGameFiles.Buttons.Recheck">Повторите попытку</s:String>
+    <s:String x:Key="Lang.Windows.RestoreGameFiles.Buttons.Close">Выйти</s:String>
+    <s:String x:Key="Lang.Windows.RestoreGameFiles.Buttons.Yes">Да</s:String>
+    <s:String x:Key="Lang.Windows.RestoreGameFiles.Buttons.No">Нет</s:String>
+
+    <s:String x:Key="Lang.Windows.FirstSetup.Title">Здравствуйте!</s:String>
+    <s:String x:Key="Lang.Windows.FirstSetup.Text">Это ваш первый запуск ModAPI. Прежде чем начать, узнайте о некоторых возможностях:</s:String>
+    <s:String x:Key="Lang.Windows.FirstSetup.AutoUpdate">Автоматическое обновление</s:String>
+    <s:String x:Key="Lang.Windows.FirstSetup.AutoUpdateText">Если вы включите автоматическое обновление, вам будет сообщено приложением о новой версии MODAPI. В случае, если новая версия приложения будет доступна, вы будете обновлять все одним щелчком мыши.</s:String>
+    <s:String x:Key="Lang.Windows.FirstSetup.Steam">Подключение к Steam</s:String>
+    <s:String x:Key="Lang.Windows.FirstSetup.SteamText">Соединение Steam позволяет вам получить доступ к функциям в игре (например, наложение оверлея). ModAPI также сможет восстанавливать игровые файлы при их удалении или изменении.</s:String>
+    <s:String x:Key="Lang.Windows.FirstSetup.UpdateVersions">Обновления таблицы версий</s:String>
+    <s:String x:Key="Lang.Windows.FirstSetup.UpdateVersionsText">Когда вы включите обновление таблицы версий ModAPI, оно будет загружено в начале. Это означает, что обновление игры будет автоматически обнаружено ModAPI. Добавление версии может занять 24 часа.</s:String>
+    <s:String x:Key="Lang.Windows.FirstSetup.Buttons.Confirm">Продолжить</s:String>
+
+
+    <s:String x:Key="Lang.Windows.UpdateAvailable.Title">Доступно обновление!</s:String>
+    <s:String x:Key="Lang.Windows.UpdateAvailable.Text">Доступна новая версия ModAPI. Хотите ли вы обновить?</s:String>
+    <s:String x:Key="Lang.Windows.UpdateAvailable.Buttons.Update">Обновить сейчас</s:String>
+    <s:String x:Key="Lang.Windows.UpdateAvailable.Buttons.Later">Обновить позже</s:String>
+
+
+    <s:String x:Key="Lang.Languages.EN">Английский</s:String>
+    <s:String x:Key="Lang.Languages.DE">Немецкий</s:String>
+    <s:String x:Key="Lang.Languages.FR">Французский</s:String>
+    <s:String x:Key="Lang.Languages.ES">Испанский</s:String>
+    <s:String x:Key="Lang.Languages.RU">Русский</s:String>
+    <s:String x:Key="Lang.Languages.HI">Индийский</s:String>
+    <s:String x:Key="Lang.Languages.AR">Арабский</s:String>
+    <s:String x:Key="Lang.Languages.TR">Турецкий</s:String>
+    <s:String x:Key="Lang.Languages.IT">Итальянский</s:String>
+    <s:String x:Key="Lang.Languages.VI">Вьетнамский</s:String>
+    <s:String x:Key="Lang.Languages.ZH">Китайский</s:String>
+    <s:String x:Key="Lang.Languages.JA">Японский</s:String>
+    <s:String x:Key="Lang.Languages.KO">Корейский</s:String>
+    <s:String x:Key="Lang.Languages.BN">Бенгальский</s:String>
+    <s:String x:Key="Lang.Languages.PT">Португальский</s:String>
+
+    <s:String x:Key="Lang.Development.Tab">Проектирование</s:String>
+    <s:String x:Key="Lang.Development.Settings.Tab">Параметры</s:String>
+    <s:String x:Key="Lang.Development.Keys.Tab">Горячие клавиши</s:String>
+    <s:String x:Key="Lang.Development.Projects">Проекты</s:String>
+    <s:String x:Key="Lang.Development.Keys.Labels.ID">ID:</s:String>
+    <s:String x:Key="Lang.Development.Keys.Labels.Name">Название:</s:String>
+    <s:String x:Key="Lang.Development.Keys.Labels.Description">Описание:</s:String>
+    <s:String x:Key="Lang.Development.Keys.Labels.StandardKey">По умолчанию клавиша:</s:String>
+    <s:String x:Key="Lang.Development.Languages.Tab">Языки</s:String>
+    <s:String x:Key="Lang.Development.Languages.AddLanguage">Добавить язык</s:String>
+    <s:String x:Key="Lang.Development.Languages.SelectedLanguages">Выбранные языки</s:String>
+    <s:String x:Key="Lang.Development.Languages.Buttons.AddLanguage">Добавить</s:String>
+
+    <s:String x:Key="Lang.Development.NoProjectSelected">Проект не отмечен</s:String>
+    <s:String x:Key="Lang.Development.SelectedProject">Избранные проекты</s:String>
+    <s:String x:Key="Lang.Development.Errors.Save">При сохранении проекта произошла ошибка. Проверьте, закрыт ли проект, а другие приложения его не используют.</s:String>
+    <s:String x:Key="Lang.Development.Errors.InvalidID">Идентификатор может содержать только буквенно-цифровые символы и «_». Идентификатор обязателен и должен быть уникальным.</s:String>
+    <s:String x:Key="Lang.Development.Errors.InvalidButtonID">Идентификатор должен быть уникальным.</s:String>
+    <s:String x:Key="Lang.Development.Errors.InvalidVersion">Версия может состоять из 4 чисел от 0 до 99, разделенных точками.</s:String>
+    <s:String x:Key="Lang.Development.Errors.InvalidName">Необходимо указать имя для выбранного языка.</s:String>
+    <s:String x:Key="Lang.Development.Errors.NoLanguageSelected">Вы должны выбрать по крайней мере один язык.</s:String>
+
+    <s:String x:Key="Lang.Development.Labels.ID">ID:</s:String>
+    <s:String x:Key="Lang.Development.Labels.StandardKey">Кнопка по умолчанию:</s:String>
+    <s:String x:Key="Lang.Development.Labels.Version">Версия:</s:String>
+    <s:String x:Key="Lang.Development.Labels.Name">Название:</s:String>
+    <s:String x:Key="Lang.Development.Labels.Description">Описание:</s:String>
+    <s:String x:Key="Lang.Development.ModLibrary">Библиотека модификации</s:String>
+    <s:String x:Key="Lang.Development.ModLibrary.CreationTime">Дата создания:</s:String>
+    <s:String x:Key="Lang.Development.ModLibrary.GameVersion">Версия игры:</s:String>
+    <s:String x:Key="Lang.Development.ModLibrary.ModAPIVersion">Версия ModAPI:</s:String>
+    <s:String x:Key="Lang.Development.Buttons.CreateModLibrary">Создать библиотеку модов</s:String>
+    <s:String x:Key="Lang.Development.Buttons.CreateProject">Создать новый проект</s:String>
+    <s:String x:Key="Lang.Development.Buttons.RemoveProject">Удалить проект</s:String>
+    <s:String x:Key="Lang.Development.Buttons.CreateMod">Создать мод</s:String>
+    <s:String x:Key="Lang.Development.Buttons.AddButton">Добавить кнопку</s:String>
+    <s:String x:Key="Lang.Development.Buttons.RemoveButton">Удалить кнопку</s:String>
+
+    <s:String x:Key="Lang.Mods.Tab">Моды</s:String>
+    <s:String x:Key="Lang.Mods.Title">Доступные моды</s:String>
+    <s:String x:Key="Lang.Mods.Buttons.StartGame">Включить игру</s:String>
+    <s:String x:Key="Lang.Mods.Buttons.SelectVersion">Выберите версию</s:String>
+    <s:String x:Key="Lang.Mods.Tabs.Informations">Информация</s:String>
+    <s:String x:Key="Lang.Mods.Tabs.Settings">Параметры</s:String>
+    <s:String x:Key="Lang.Mods.Labels.ID">ID:</s:String>
+    <s:String x:Key="Lang.Mods.Labels.Version">Выбранная версия:</s:String>
+    <s:String x:Key="Lang.Mods.Labels.AvailableVersions">Доступные версии:</s:String>
+    <s:String x:Key="Lang.Mods.Labels.Name">Название:</s:String>
+    <s:String x:Key="Lang.Mods.Labels.Description">Описание:</s:String>
+    <s:String x:Key="Lang.Mods.Labels.Buttons">Назначенные клавиши</s:String>
+    <s:String x:Key="Lang.Mods.Labels.Compatible">Совместимы с:</s:String>
+
+    <s:String x:Key="Lang.Mods.Welcome.Title0">Здравствуйте!</s:String>
+    <s:String x:Key="Lang.Mods.Welcome.Text0">Начните с выбора модов, которые вы хотите использовать в игре. Для этого щелкните круглую кнопку слева от имени мода. Вы можете изменить назначение кнопок для данного мода на вкладке «Настройки».</s:String>
+    <s:String x:Key="Lang.Mods.Welcome.Text1">Чтобы активировать игру с модами, все, что вам нужно сделать, это нажать кнопку «Включить игру» в нижнем правом углу.</s:String>
+    <s:String x:Key="Lang.Mods.Welcome.Title1">Ошибки?</s:String>
+    <s:String x:Key="Lang.Mods.Welcome.Text2">Если вы встретили какие-либо ошибки, обратитесь за помощью на форум на сайте www.modapi.de</s:String>
+    <s:String x:Key="Lang.Mods.Welcome.Text3">Не забудьте указать файл с игровыми журналами и «ModAPI.log». который находится в папке logs. Этот файл содержит необходимую информацию для решения проблемы.</s:String>
+
+    <s:String x:Key="Lang.Savegames.Tab">Сохранения игры</s:String>
+    <s:String x:Key="Lang.Savegames.Title">Ваши сохранения игры</s:String>
+    <s:String x:Key="Lang.Savegames.MainSavegame">Главное сохранение игры</s:String>
+
+    <s:String x:Key="Lang.Savegames.SelectedSavegame">Выбранная сохраненная игра:</s:String>
+    <s:String x:Key="Lang.Savegames.Options">Варианты:</s:String>
+    <s:String x:Key="Lang.Savegames.Buttons.Save">Сохранить</s:String>
+    <s:String x:Key="Lang.Savegames.Buttons.SaveAs">Сохранить как...</s:String>
+    <s:String x:Key="Lang.Savegames.Buttons.Delete">Удалить</s:String>
+    <s:String x:Key="Lang.Savegames.Buttons.CreateBackup">Создать резервную копию</s:String>
+    <s:String x:Key="Lang.Savegames.Buttons.RemoveAllBackups">Удалить все резервные копии</s:String>
+    <s:String x:Key="Lang.Savegames.Buttons.LoadBackup">Загрузите резервную копию</s:String>
+    <s:String x:Key="Lang.Savegames.Buttons.DeleteBackup">Удалить резервную копию</s:String>
+
+    <s:String x:Key="Lang.Options.Tab">Параметры</s:String>
+    <s:String x:Key="Lang.Options.Labels.Language">Язык:</s:String>
+    <s:String x:Key="Lang.Options.Labels.UpdateVersionsTable">Поддержка актуальности таблицы версий:</s:String>
+    <s:String x:Key="Lang.Options.Labels.AutoUpdate">Проверка обновления:</s:String>
+    <s:String x:Key="Lang.Options.Labels.UseSteam">Подключение к Steam:</s:String>
+</ResourceDictionary>
+    

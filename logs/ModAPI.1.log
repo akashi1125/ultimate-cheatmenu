@@ -1,0 +1,276 @@
+[2024-12-29 21:35:29] (Configuration): Generic configuration file "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\resources\Configuration.xml" parsed successfully.
+[2024-12-29 21:35:29] (Configuration): Game configuration file for "GenericUnityGame" parsed successfully.
+[2024-12-29 21:35:29] (Configuration): Game configuration file for "TheForest" parsed successfully.
+[2024-12-29 21:35:29] (Configuration): Selected the Game "TheForest" successfully.
+[2024-12-29 21:35:29] (Configuration): Generic configuration file "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\configs\UserConfiguration.xml" parsed successfully.
+[2024-12-29 21:35:29] (Language): Image file "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\resources\langs\Language.DE.png" loaded for language "DE".
+[2024-12-29 21:35:29] (Configuration): Loaded language "DE" successfully.
+[2024-12-29 21:35:29] (Language): Image file "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\resources\langs\Language.EN.png" loaded for language "EN".
+[2024-12-29 21:35:29] (Configuration): Loaded language "EN" successfully.
+[2024-12-29 21:35:29] (Language): Image file "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\resources\langs\Language.ES.png" loaded for language "ES".
+[2024-12-29 21:35:29] (Configuration): Loaded language "ES" successfully.
+[2024-12-29 21:35:29] (Language): Image file "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\resources\langs\Language.FR.png" loaded for language "FR".
+[2024-12-29 21:35:29] (Configuration): Loaded language "FR" successfully.
+[2024-12-29 21:35:29] (Language): Image file "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\resources\langs\Language.IT.png" loaded for language "IT".
+[2024-12-29 21:35:29] (Configuration): Loaded language "IT" successfully.
+[2024-12-29 21:35:29] (Language): Image file "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\resources\langs\Language.KR.png" loaded for language "KO".
+[2024-12-29 21:35:29] (Configuration): Loaded language "KO" successfully.
+[2024-12-29 21:35:29] (Language): Image file "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\resources\langs\Language.PL.png" loaded for language "PL".
+[2024-12-29 21:35:29] (Configuration): Loaded language "PL" successfully.
+[2024-12-29 21:35:29] (Language): Image file "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\resources\langs\Language.RU.png" loaded for language "RU".
+[2024-12-29 21:35:29] (Configuration): Loaded language "RU" successfully.
+[2024-12-29 21:35:29] (Language): Image file "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\resources\langs\Language.ZH.png" loaded for language "ZH".
+[2024-12-29 21:35:29] (Configuration): Loaded language "ZH" successfully.
+[2024-12-29 21:35:29] (Configuration): 9 languages parsed successfully.
+[2024-12-29 21:35:29] (Configuration): Configuration key "language" does not exist..
+[2024-12-29 21:35:29] (Configuration): Language changed to EN
+[2024-12-29 21:35:29] (GUIConfiguration): Parsing the GUI configuration file "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\configs\games\TheForest\GUI.xml".
+[2024-12-29 21:35:29] (GUIConfiguration): Successfully parsed the GUI configuration.
+[2024-12-29 21:35:29] (SplashScreen): Preparing and opening main window.
+[2024-12-29 21:35:29] (Configuration): Configuration key "login.user" does not exist..
+[2024-12-29 21:35:30] (Game: TheForest): ERROR: Failed to download one of the version files: System.Net.WebException: A solicitação foi anulada: Não foi possível criar um canal seguro para SSL/TLS.
+   em System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   em System.Net.WebClient.DownloadString(Uri address)
+   em ModAPI.Data.Game.Versions.UpdateVersions() na D:\Program Files (x86)\ModAPI-master\ModAPI_Shared\Data\Game.cs:linha 1448
+[2024-12-29 21:35:31] (Game: TheForest): <Mod ID="UltimateCheatmenu">
+  <Compatible>1.11b</Compatible>
+  <Version>2.3.6</Version>
+  <Name>
+    <EN>Ultimate Cheatmenu</EN>
+  </Name>
+  <Description>
+    <EN>Ultimate Cheatmenu</EN>
+  </Description>
+  <Button ID="OpenMenu" Standard="F1">
+    <Name>
+      <EN>OpenMenu</EN>
+    </Name>
+    <Description>
+      <EN>Toggle Cheatmenu</EN>
+    </Description>
+  </Button>
+  <Button ID="MassTree" Standard="X">
+    <Name>
+      <EN>Sphere</EN>
+    </Name>
+    <Description>
+      <EN>Create a sphere. Use the scrollwheel to change the radius</EN>
+    </Description>
+  </Button>
+  <Button ID="FreezeTime" Standard="F4">
+    <Name>
+      <EN>Freeze Time</EN>
+    </Name>
+    <Description>
+      <EN>Freezes Time</EN>
+    </Description>
+  </Button>
+  <Button ID="InstaBuild" Standard="F">
+    <Name>
+      <EN>InstaBuild</EN>
+    </Name>
+    <Description>
+      <EN>Instant build Ghost Buildings</EN>
+    </Description>
+  </Button>
+  <Button ID="FreeCam" Standard="F3">
+    <Name>
+      <EN>FreeCam</EN>
+    </Name>
+    <Description>
+      <EN>Toggle FreeCam</EN>
+    </Description>
+  </Button>
+  <Button ID="InstaRepair" Standard="LeftShift+R">
+    <Name>
+      <EN>InstaRepair</EN>
+    </Name>
+    <Description>
+      <EN>Repair all Buildings</EN>
+    </Description>
+  </Button>
+  <Button ID="Fly" Standard="F6">
+    <Name>
+      <EN>Fly</EN>
+    </Name>
+    <Description>
+      <EN>Toggle Fly mode</EN>
+    </Description>
+  </Button>
+  <Button ID="Noclip" Standard="F7">
+    <Name>
+      <EN>Noclip</EN>
+    </Name>
+    <Description>
+      <EN>toggle noclip</EN>
+    </Description>
+  </Button>
+  <Button ID="Respawn" Standard="T">
+    <Name>
+      <EN>Respawn</EN>
+    </Name>
+    <Description>
+      <EN>respawn last item/prop</EN>
+    </Description>
+  </Button>
+  <Button ID="RespawnInfinite" Standard="LeftShift+T">
+    <Name>
+      <EN>RespawnInfinite</EN>
+    </Name>
+    <Description>
+      <EN>hold to respawn last item/prop</EN>
+    </Description>
+  </Button>
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForestAtmosphere" MethodName="Update" Path="System.Void UltimateCheatmenu.Atmosphere::Update()" Priority="0" CheckSum="4cf12dd16c620b7a4e061da0935f474b" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForestAtmosphere" MethodName="ChangeFogAmount" Path="System.Void UltimateCheatmenu.Atmosphere::ChangeFogAmount()" Priority="0" CheckSum="c81cac1d93725a72f684d976855fe98c" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForestAtmosphere" MethodName=".ctor" Path="System.Void UltimateCheatmenu.Atmosphere::.ctor()" Priority="0" CheckSum="5190897a3a7a638968c19563176670e7" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.World.BuildingHealthHitRelay" MethodName="LocalizedHit" Path="System.Void UltimateCheatmenu.BuildingHealthHitRelayOv::LocalizedHit(TheForest.World.LocalizedHitData)" Priority="0" CheckSum="8c331bed9efb222027ffff5b9bbeb4a3" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.World.BuildingHealthHitRelay" MethodName=".ctor" Path="System.Void UltimateCheatmenu.BuildingHealthHitRelayOv::.ctor()" Priority="0" CheckSum="b36774eaa29312b353d7832cc1c75e1c" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.World.BuildingHealthChunkHitRelay" MethodName="LocalizedHit" Path="System.Void UltimateCheatmenu.BuildingHealthChunkHitRelayOv::LocalizedHit(TheForest.World.LocalizedHitData)" Priority="0" CheckSum="642487f6cb443b3c80c873fdeb4b5788" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.World.BuildingHealthChunkHitRelay" MethodName=".ctor" Path="System.Void UltimateCheatmenu.BuildingHealthChunkHitRelayOv::.ctor()" Priority="0" CheckSum="b1056c9028b887651b703ed70db95c13" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.World.FoundationChunkTier" MethodName="LocalizedHit" Path="System.Void UltimateCheatmenu.FoundationChunkTierOv::LocalizedHit(TheForest.World.LocalizedHitData)" Priority="0" CheckSum="2cfe364ccf2bb55be88f94d03977379e" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.World.FoundationChunkTier" MethodName=".ctor" Path="System.Void UltimateCheatmenu.FoundationChunkTierOv::.ctor()" Priority="0" CheckSum="cb81393b96da147c99890da94b1ff72e" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.World.BuildingHealth" MethodName="LocalizedHit" Path="System.Void UltimateCheatmenu.BuildingHealthOv::LocalizedHit(TheForest.World.LocalizedHitData)" Priority="0" CheckSum="8c9fa4c0a652f6d90a65de6808c545a7" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.World.BuildingHealth" MethodName=".ctor" Path="System.Void UltimateCheatmenu.BuildingHealthOv::.ctor()" Priority="0" CheckSum="f73cc0f4b1fbb0f65e9dbf81a82601c8" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Items.Inventory.PlayerInventory" MethodName="RemoveItem" Path="System.Boolean UltimateCheatmenu.PlayerInv::RemoveItem(System.Int32,System.Int32,System.Boolean,System.Boolean)" Priority="0" CheckSum="b6fd7e9ffebf8d6a4ea2eafcb6530a20" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Items.Inventory.PlayerInventory" MethodName="Attack" Path="System.Void UltimateCheatmenu.PlayerInv::Attack()" Priority="0" CheckSum="0bd6edcae650a4a09bb3aada61d6a9b2" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Items.Inventory.PlayerInventory" MethodName=".ctor" Path="System.Void UltimateCheatmenu.PlayerInv::.ctor()" Priority="0" CheckSum="7336ee18990600f43aa99ea64de627f9" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="Explode" MethodName="RunExplode" Path="System.Void UltimateCheatmenu.ExplodeOv::RunExplode()" Priority="0" CheckSum="027c6a018c15041f68af2d184f614218" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="Explode" MethodName=".ctor" Path="System.Void UltimateCheatmenu.ExplodeOv::.ctor()" Priority="0" CheckSum="a9fb31ec089b03fa80658e466ea95df7" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="Fire" MethodName="Drain" Path="System.Void UltimateCheatmenu.FireOv::Drain()" Priority="0" CheckSum="77c6be45a7fe73e0fa8ab0cbe26abfa6" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="Fire" MethodName=".ctor" Path="System.Void UltimateCheatmenu.FireOv::.ctor()" Priority="0" CheckSum="51fe8485ca38df5008493428a9c18acb" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="FireStand" MethodName="Drain" Path="System.Void UltimateCheatmenu.FireStandOv::Drain()" Priority="0" CheckSum="208ba2e00149f1311d582ec8b1c0b979" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="FireStand" MethodName=".ctor" Path="System.Void UltimateCheatmenu.FireStandOv::.ctor()" Priority="0" CheckSum="682cdea57e52d6d2a147ceaddee19f76" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="Fire2" MethodName="UpdateLit" Path="System.Void UltimateCheatmenu.Fire2Ov::UpdateLit()" Priority="0" CheckSum="f6b41e779e1086ae0c48b28127cfd097" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="Fire2" MethodName=".ctor" Path="System.Void UltimateCheatmenu.Fire2Ov::.ctor()" Priority="0" CheckSum="571e140b5f9a304269675294a83f2f2c" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="enableEffigy" MethodName="Update" Path="System.Void UltimateCheatmenu.FireEffigyOv::Update()" Priority="0" CheckSum="cf1baa0d9837c1f00801d17d8b4885db" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="enableEffigy" MethodName=".ctor" Path="System.Void UltimateCheatmenu.FireEffigyOv::.ctor()" Priority="0" CheckSum="d49006c04b394845c966525b7cc16b0f" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" MethodName="Start" Path="System.Void UltimateCheatmenu.FPController::Start()" Priority="0" CheckSum="305dfe733a64ed6f3865ea1d8b221e64" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" MethodName="FixedUpdate" Path="System.Void UltimateCheatmenu.FPController::FixedUpdate()" Priority="0" CheckSum="758b3365b407eca5cf4e6da99d26b43b" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" MethodName=".ctor" Path="System.Void UltimateCheatmenu.FPController::.ctor()" Priority="0" CheckSum="7170102ab64a33a1a9d063015604127b" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="EnemyHealth" MethodName="Hit" Path="System.Void UltimateCheatmenu.EnemyhealthOv::Hit(System.Int32)" Priority="0" CheckSum="10b06d983c2f07a260f44dece0a7bb9d" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="EnemyHealth" MethodName=".ctor" Path="System.Void UltimateCheatmenu.EnemyhealthOv::.ctor()" Priority="0" CheckSum="e1e22fd5977f967725888b3806866923" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="playerHitReactions" MethodName="enableExplodeShake" Path="System.Void UltimateCheatmenu.PlayerHitReactionsEx::enableExplodeShake(System.Single)" Priority="0" CheckSum="918bbbdfbb36b4832be2dc765fbc2a9a" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="playerHitReactions" MethodName=".ctor" Path="System.Void UltimateCheatmenu.PlayerHitReactionsEx::.ctor()" Priority="0" CheckSum="ea684c8e156e7b66287d7110855c5700" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.World.GardenDirtPile" MethodName="Growth" Path="System.Void UltimateCheatmenu.GardenOv::Growth()" Priority="0" CheckSum="f202250ca91b3be892ef77b9181fc02a" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.World.GardenDirtPile" MethodName=".ctor" Path="System.Void UltimateCheatmenu.GardenOv::.ctor()" Priority="0" CheckSum="ff7c1fec64353f836e6a1ee6fb8693ff" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="Garden" MethodName="PlantSeed" Path="System.Void UltimateCheatmenu.PlantOv::PlantSeed()" Priority="0" CheckSum="8098159d15b543556ede2eafd95ed41d" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="Garden" MethodName=".ctor" Path="System.Void UltimateCheatmenu.PlantOv::.ctor()" Priority="0" CheckSum="a5302d315ba6826915a5038533400257" />
+  <InjectInto AssemblyName="Assembly-CSharp-firstpass" TypeName="NeoGrassCutter" MethodName=".ctor" Path="System.Void UltimateCheatmenu.GrassCutterOv::.ctor()" Priority="0" CheckSum="c85c01a33436e8984e00d320fda2c3e1" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="CustomActiveValueGreebleSuitcase" MethodName="UpdateGreebleData" Path="System.Void UltimateCheatmenu.GreebleZ::UpdateGreebleData()" Priority="0" CheckSum="6784c23893c99590e3284a36a0120ce6" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="CustomActiveValueGreebleSuitcase" MethodName=".ctor" Path="System.Void UltimateCheatmenu.GreebleZ::.ctor()" Priority="0" CheckSum="0bcdb5064594521bca272b0e9ca8c06b" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.Creation.FloorHoleArchitect" MethodName="Update" Path="System.Void UltimateCheatmenu.HoleCutter::Update()" Priority="0" CheckSum="5fb13021d0199f6a969b2dad3abcb971" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.Creation.FloorHoleArchitect" MethodName=".ctor" Path="System.Void UltimateCheatmenu.HoleCutter::.ctor()" Priority="0" CheckSum="4d8e50addb55abcfa32c0aecd6654a4e" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="LogHolder" MethodName=".ctor" Path="System.Void UltimateCheatmenu.LogHolderOv::.ctor()" Priority="0" CheckSum="2f599cee1d7f8463872929ca24d36660" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Items.World.LightableItemController" MethodName="OnEnable" Path="System.Void UltimateCheatmenu.LightableOv::OnEnable()" Priority="0" CheckSum="38978f80e5c6facbb72a3a9b09777c5c" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Items.World.LightableItemController" MethodName="Update" Path="System.Void UltimateCheatmenu.LightableOv::Update()" Priority="0" CheckSum="871e13094ab35176c0ace883e4c39208" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Items.World.LightableItemController" MethodName=".ctor" Path="System.Void UltimateCheatmenu.LightableOv::.ctor()" Priority="0" CheckSum="88d7044271abc2105c32f1663f7830fc" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.World.WeatherSystem" MethodName="TryRain" Path="System.Void UltimateCheatmenu.NewWeatherSystem::TryRain()" Priority="0" CheckSum="dc6906c3b4c8a98f395e31daf6bd8b40" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.World.WeatherSystem" MethodName="Update" Path="System.Void UltimateCheatmenu.NewWeatherSystem::Update()" Priority="0" CheckSum="a2c62b45871a45486c639bd6cae045e0" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.World.WeatherSystem" MethodName=".ctor" Path="System.Void UltimateCheatmenu.NewWeatherSystem::.ctor()" Priority="0" CheckSum="5926de53907c3efdfc1d2a7d2546172a" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="hitFallDown" Path="System.Void UltimateCheatmenu.Stats::hitFallDown()" Priority="0" CheckSum="b633de085e90107fcbc2670149530043" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="HitFire" Path="System.Void UltimateCheatmenu.Stats::HitFire()" Priority="0" CheckSum="a4074fe4e56c0dd140d654ab3d9edad4" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="hitFromEnemy" Path="System.Void UltimateCheatmenu.Stats::hitFromEnemy(System.Int32)" Priority="0" CheckSum="456a5bdb6195410a7c61e8416f44cc74" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="HitShark" Path="System.Void UltimateCheatmenu.Stats::HitShark(System.Int32)" Priority="0" CheckSum="017867555f338dc236204f18f77cdd14" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="FallDownDead" Path="System.Void UltimateCheatmenu.Stats::FallDownDead()" Priority="0" CheckSum="f15e053fa1cb39d6a36ae5ebf75ed5a9" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="HitFromPlayMaker" Path="System.Void UltimateCheatmenu.Stats::HitFromPlayMaker(System.Int32)" Priority="0" CheckSum="138a2669ad3d61fbb8b6cf26d4593adc" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="Fell" Path="System.Void UltimateCheatmenu.Stats::Fell()" Priority="0" CheckSum="f1bdae02a480b31cb7cd7b2a9b060dc4" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="KnockOut" Path="System.Void UltimateCheatmenu.Stats::KnockOut()" Priority="0" CheckSum="87a75e57fc7a25f31d2b5f572f0b9d92" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="Bleed" Path="System.Void UltimateCheatmenu.Stats::Bleed()" Priority="0" CheckSum="6d770636baa44f8849672ed1dcd96944" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="Poison" Path="System.Void UltimateCheatmenu.Stats::Poison()" Priority="0" CheckSum="b0fcfdd423c69d3da34359d062a70f8e" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="HitPoison" Path="System.Void UltimateCheatmenu.Stats::HitPoison()" Priority="0" CheckSum="6a4799242cbd6c8efe243f293d3e9220" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="Hit" Path="System.Void UltimateCheatmenu.Stats::Hit(System.Int32,System.Boolean,PlayerStats/DamageType)" Priority="0" CheckSum="5e91b6438dd1a818563152d3b821ba1d" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="Update" Path="System.Void UltimateCheatmenu.Stats::Update()" Priority="0" CheckSum="f50db63f3d5db0fd94ad6029ae2463a7" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="KillPlayer" Path="System.Void UltimateCheatmenu.Stats::KillPlayer()" Priority="0" CheckSum="fa5190ad09d4cc4e10cdb957673766ca" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="HitFood" Path="System.Void UltimateCheatmenu.Stats::HitFood()" Priority="0" CheckSum="40a1d9d721c45c91976ef549cf3cc7b1" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="HitFoodDelayed" Path="System.Void UltimateCheatmenu.Stats::HitFoodDelayed(System.Int32)" Priority="0" CheckSum="dcf1e5366af92e5fc5f4e65649ffbf1b" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="Explosion" Path="System.Void UltimateCheatmenu.Stats::Explosion(System.Single)" Priority="0" CheckSum="938c52d2d997495a778296a2c4aedae1" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName="Burn" Path="System.Void UltimateCheatmenu.Stats::Burn()" Priority="0" CheckSum="0e488e87b1185d4b20082f3e3c681c3c" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="PlayerStats" MethodName=".ctor" Path="System.Void UltimateCheatmenu.Stats::.ctor()" Priority="0" CheckSum="2818470cd1cd1c97a1d0dd147367cbf0" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="KeepAboveTerrain" MethodName="Awake" Path="System.Void UltimateCheatmenu.KeepAboveTerrainOv::Awake()" Priority="0" CheckSum="c48c74dbaf2f22dbe80ef0a3077020de" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="KeepAboveTerrain" MethodName="SetColliding" Path="System.Void UltimateCheatmenu.KeepAboveTerrainOv::SetColliding()" Priority="0" CheckSum="19c7ce22bc14f60d849d1c5ef337b4a5" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="KeepAboveTerrain" MethodName="Update" Path="System.Void UltimateCheatmenu.KeepAboveTerrainOv::Update()" Priority="0" CheckSum="2d7258261a621a5261db5467b4f150f5" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="KeepAboveTerrain" MethodName=".ctor" Path="System.Void UltimateCheatmenu.KeepAboveTerrainOv::.ctor()" Priority="0" CheckSum="5216f4acda7c4e20ac1af5b02a762d15" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.Creation.GardenArchitect" MethodName="LateUpdate" Path="System.Void UltimateCheatmenu.gardenArchitectOv::LateUpdate()" Priority="0" CheckSum="a0ad3c374734c316884a7e6a162b5024" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.Creation.GardenArchitect" MethodName=".ctor" Path="System.Void UltimateCheatmenu.gardenArchitectOv::.ctor()" Priority="0" CheckSum="52ba9cb3f10c32dcdd1d2c053d89a4e3" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="sceneTracker" MethodName="Update" Path="System.Void UltimateCheatmenu.LogCounter::Update()" Priority="0" CheckSum="8020192bdc383b379a63bee9cd1b5d3c" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="sceneTracker" MethodName=".ctor" Path="System.Void UltimateCheatmenu.LogCounter::.ctor()" Priority="0" CheckSum="401fa99ccbc0a8a78b4a1a6fe11ff29f" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Items.World.BatteryBasedLight" MethodName="Update" Path="System.Void UltimateCheatmenu.Torch::Update()" Priority="0" CheckSum="8c26571a00e17135035e444aec55ddec" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Items.World.BatteryBasedLight" MethodName=".ctor" Path="System.Void UltimateCheatmenu.Torch::.ctor()" Priority="0" CheckSum="af02a2581617c786ff671d84b01f59ce" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TreeHealth" MethodName="Hit" Path="System.Void UltimateCheatmenu.TreeHealthOv::Hit()" Priority="0" CheckSum="b01744ba40e84911e42340afb5163425" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TreeHealth" MethodName=".ctor" Path="System.Void UltimateCheatmenu.TreeHealthOv::.ctor()" Priority="0" CheckSum="6d8f55a1824fb93528f2ddd3e20bc2a6" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="Ceto.UnderWaterPostEffect" MethodName="LateUpdate" Path="System.Void UltimateCheatmenu.Water::LateUpdate()" Priority="0" CheckSum="3e2fb4f3f116724ab37689d54a311c6c" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="Ceto.UnderWaterPostEffect" MethodName=".ctor" Path="System.Void UltimateCheatmenu.Water::.ctor()" Priority="0" CheckSum="d548e4ba5fbd0cdbaeb0e664d1c136ad" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="WaterBlurEffect" MethodName="OnRenderImage" Path="System.Void UltimateCheatmenu.Water2::OnRenderImage(UnityEngine.RenderTexture,UnityEngine.RenderTexture)" Priority="0" CheckSum="6e9e334f6c8115889cfc317c1bab50d2" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="WaterBlurEffect" MethodName=".ctor" Path="System.Void UltimateCheatmenu.Water2::.ctor()" Priority="0" CheckSum="7cd8c183eb31aacf69c2a925f4b7699c" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.Creation.CraneArchitect" MethodName="LateUpdate" Path="System.Void UltimateCheatmenu.CraneArchitectOv::LateUpdate()" Priority="0" CheckSum="93fa77eab4a0a492584b6120f2568d28" />
+  <InjectInto AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.Creation.CraneArchitect" MethodName=".ctor" Path="System.Void UltimateCheatmenu.CraneArchitectOv::.ctor()" Priority="0" CheckSum="8bf4440ffe23ca1cc9fd678298444ccb" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Single" FieldName="baseWalkSpeed" Path="System.Single UltimateCheatmenu.FPController::baseWalkSpeed" CheckSum="ac47e76b0c95c03ff737de9c4f330a05" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Single" FieldName="baseRunSpeed" Path="System.Single UltimateCheatmenu.FPController::baseRunSpeed" CheckSum="d938568fe4280af98dfada430babad08" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Single" FieldName="baseJumpHeight" Path="System.Single UltimateCheatmenu.FPController::baseJumpHeight" CheckSum="a609f7d3ec19a869ee65db91ae389764" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Single" FieldName="baseCrouchSpeed" Path="System.Single UltimateCheatmenu.FPController::baseCrouchSpeed" CheckSum="e34470207d276acaf1f3bdb4a9534eac" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Single" FieldName="baseStrafeSpeed" Path="System.Single UltimateCheatmenu.FPController::baseStrafeSpeed" CheckSum="5e3e214e54cf9fb14b29d6cd979ac69f" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Single" FieldName="baseSwimmingSpeed" Path="System.Single UltimateCheatmenu.FPController::baseSwimmingSpeed" CheckSum="444c20d0bbd78289e884f155912f4574" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Single" FieldName="baseGravity" Path="System.Single UltimateCheatmenu.FPController::baseGravity" CheckSum="46d56254cc813b21a0a3d88fa6f131e8" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Single" FieldName="baseMaxVelocityChange" Path="System.Single UltimateCheatmenu.FPController::baseMaxVelocityChange" CheckSum="94ce611d3a50e9c6539fb4220ee932ae" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Single" FieldName="baseMaximumVelocity" Path="System.Single UltimateCheatmenu.FPController::baseMaximumVelocity" CheckSum="e63c33b0f9103e55a72159e1119dd18b" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Single" FieldName="baseMaxSwimVelocity" Path="System.Single UltimateCheatmenu.FPController::baseMaxSwimVelocity" CheckSum="55d9c571777548af34c1f0df46d711c0" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="UnityEngine.Collider[]" FieldName="AllChildColliders" Path="UnityEngine.Collider[] UltimateCheatmenu.FPController::AllChildColliders" CheckSum="1edaa96e93989124ed9374240ffad60e" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="UnityEngine.Collider[]" FieldName="AllColliders" Path="UnityEngine.Collider[] UltimateCheatmenu.FPController::AllColliders" CheckSum="26e22720953516e1d05bf10ad83dad0c" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Boolean[]" FieldName="AllChildCollidersEnabled" Path="System.Boolean[] UltimateCheatmenu.FPController::AllChildCollidersEnabled" CheckSum="fd1b5bb1b5086226bb403a86d066f4bb" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Boolean[]" FieldName="AllCollidersEnabled" Path="System.Boolean[] UltimateCheatmenu.FPController::AllCollidersEnabled" CheckSum="1246e89271eaa0eab0aac1f1faddfa55" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Boolean" FieldName="LastNoClip" Path="System.Boolean UltimateCheatmenu.FPController::LastNoClip" CheckSum="929273a6ac727db2066553b97cea0fd4" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" FieldType="System.Boolean" FieldName="LastFlyMode" Path="System.Boolean UltimateCheatmenu.FPController::LastFlyMode" CheckSum="5c68f282c44a78065f32345c8c17b36f" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="TheForest.World.WeatherSystem" FieldType="System.Single" FieldName="ResetCloudTime" Path="System.Single UltimateCheatmenu.NewWeatherSystem::ResetCloudTime" CheckSum="f1cacaa9cb83b5fe64d32c9291ed3708" />
+  <AddField AssemblyName="Assembly-CSharp" TypeName="TheForest.Buildings.Creation.CraneArchitect" FieldType="System.Int32" FieldName="_lockModes" Path="System.Int32 UltimateCheatmenu.CraneArchitectOv::_lockModes" CheckSum="0ade46589247c8f13e287694abfa7a77" />
+  <AddMethod AssemblyName="Assembly-CSharp" TypeName="FirstPersonCharacter" MethodName="BaseValues" ReturnType="System.Void" Path="System.Void UltimateCheatmenu.FPController::BaseValues()" CheckSum="2177fea64c2d4b0f84d5215d9c400ac1" />
+  <AddMethod AssemblyName="Assembly-CSharp" TypeName="LogHolder" MethodName="addLogs" ReturnType="System.Void" Path="System.Void UltimateCheatmenu.LogHolderOv::addLogs()" CheckSum="48c7c9f7089aeb7681024bfdae9a0e0d" />
+  <AddMethod AssemblyName="Assembly-CSharp" TypeName="LogHolder" MethodName="ResetLogs" ReturnType="System.Void" Path="System.Void UltimateCheatmenu.LogHolderOv::ResetLogs()" CheckSum="9e114095bc0af684cf970427f9d28bd3" />
+  <AddClass TypeName="UltimateCheatmenu.BuildingRepairHelper" CheckSum="73d781a99bd3b974a4a9e6d8b998c5dc" />
+  <AddClass TypeName="UltimateCheatmenu.DestroyBuildings" CheckSum="34d7aa4a6a76b3bf981956661a177f68" />
+  <AddClass TypeName="UltimateCheatmenu.INIHelper" CheckSum="111914a5082b16a4fc0e01eb2f10096b" />
+  <AddClass TypeName="UltimateCheatmenu.InstaBuild" CheckSum="9401b6ea5b980ef492282c8a1c3f7f71" />
+  <AddClass TypeName="UltimateCheatmenu.Localization" CheckSum="d79b7448b57e89c56561148b0b3168c3" />
+  <AddClass TypeName="UltimateCheatmenu.PlayerManager" CheckSum="3209e99991933baeeb54f2a37610d773" />
+  <AddClass TypeName="UltimateCheatmenu.Player" CheckSum="03791f6745cfb76c08d540ea66947452" />
+  <AddClass TypeName="UltimateCheatmenu.UCheatmenu" CheckSum="41b9e7d617da944681c2c137c5e69101" />
+  <AddClass TypeName="&lt;PrivateImplementationDetails&gt;" CheckSum="9c37a474120bccf169e5055719644e80" />
+</Mod>
+[2024-12-29 21:35:31] (Game: TheForest): Successfully parsed mod header of mod "UltimateCheatmenu".
+[2024-12-29 21:35:31] (Game: TheForest): Successfully loaded mod header "UltimateCheatmenu" in version "2.3.6" at "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\mods\TheForest\UltimateCheatmenu-2.3.6-d240140a239a4159f64c3576a62bda94.mod"
+[2024-12-29 21:35:31] (SplashScreen): Main window loaded. Warming up GUI.
+[2024-12-29 21:35:31] (MainWindow): Preparing GUI.
+[2024-12-29 21:35:31] (Game: TheForest): Successfully loaded mod module "UltimateCheatmenu" in version "2.3.6" at "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\mods\TheForest\UltimateCheatmenu-2.3.6-d240140a239a4159f64c3576a62bda94.mod"
+[2024-12-29 21:35:31] (MainWindow): GUI is ready.
+[2024-12-29 21:35:36] (ModLib: TheForest): Added folder "C:\Users\LIEDSON\Downloads\modapi-2024_12_29_22_03_12\modapi_20210818_1.0.5.0\gamefiles\original\TheForest\TheForest_data\Managed" to assembly resolver.
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.FPController - FirstPersonCharacter
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.LogHolderOv - LogHolder
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.NewWeatherSystem - TheForest.World.WeatherSystem
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.CraneArchitectOv - TheForest.Buildings.Creation.CraneArchitect
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.Atmosphere - TheForestAtmosphere
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.BuildingHealthHitRelayOv - TheForest.Buildings.World.BuildingHealthHitRelay
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.BuildingHealthChunkHitRelayOv - TheForest.Buildings.World.BuildingHealthChunkHitRelay
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.FoundationChunkTierOv - TheForest.Buildings.World.FoundationChunkTier
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.BuildingHealthOv - TheForest.Buildings.World.BuildingHealth
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.PlayerInv - TheForest.Items.Inventory.PlayerInventory
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.ExplodeOv - Explode
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.FireOv - Fire
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.FireStandOv - FireStand
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.Fire2Ov - Fire2
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.FireEffigyOv - enableEffigy
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.EnemyhealthOv - EnemyHealth
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.PlayerHitReactionsEx - playerHitReactions
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.GardenOv - TheForest.Buildings.World.GardenDirtPile
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.PlantOv - Garden
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.GrassCutterOv - NeoGrassCutter
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.GreebleZ - CustomActiveValueGreebleSuitcase
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.HoleCutter - TheForest.Buildings.Creation.FloorHoleArchitect
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.LightableOv - TheForest.Items.World.LightableItemController
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.Stats - PlayerStats
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.KeepAboveTerrainOv - KeepAboveTerrain
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.gardenArchitectOv - TheForest.Buildings.Creation.GardenArchitect
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.LogCounter - sceneTracker
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.Torch - TheForest.Items.World.BatteryBasedLight
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.TreeHealthOv - TreeHealth
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.Water - Ceto.UnderWaterPostEffect
+[2024-12-29 21:35:37] (Game: TheForest): Type entry: UltimateCheatmenu.Water2 - WaterBlurEffect
